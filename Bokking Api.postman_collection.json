@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "af4aae70-6c95-49e3-a8cd-d632621914fe",
+		"name": "Bokking Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25541267"
+	},
+	"item": [
+		{
+			"name": "Smoke Test",
+			"item": [
+				{
+					"name": "Get All Bookings Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Uri1}}",
+							"host": [
+								"{{Uri1}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Checking health Copy",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Integration testing",
+			"item": [
+				{
+					"name": "Get All Bookings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Uri1}}",
+							"host": [
+								"{{Uri1}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Uri1}}/123",
+							"host": [
+								"{{Uri1}}"
+							],
+							"path": [
+								"123"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create Booking",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "integration testing prod",
+			"item": []
+		},
+		{
+			"name": "Checking health",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
